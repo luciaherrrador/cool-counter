@@ -1,8 +1,8 @@
 import React from "react";
 
-/*window.addEventListener('load', () => {
+window.addEventListener('load', () => {
     document.querySelector('#audio').play()
-  });*/
+  });
 
 class SheepCounter extends React.Component{
   constructor(props){
@@ -15,8 +15,6 @@ class SheepCounter extends React.Component{
       this.clickHandler = this.clickHandler.bind(this);
   }
 
-  
-
   clickHandler(){
       this.arrayOfSheeps.push(<div className="sheep"></div>);
       this.setState({
@@ -24,8 +22,6 @@ class SheepCounter extends React.Component{
           sheeps: this.arrayOfSheeps.map(sheep => sheep)
       })
   }
-
-  
 
   render(){
       return(
