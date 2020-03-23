@@ -1,9 +1,7 @@
 import React from 'react';
 
- 
 class Audio extends React.Component {
  
-
   render() {
 
     const item = [
@@ -22,8 +20,6 @@ class Audio extends React.Component {
                     <source src={ item.audio } type={ item.formato }/>
                   </audio>
                 </div>
-       
- 
       })
     )
   }

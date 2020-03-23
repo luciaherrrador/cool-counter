@@ -31,7 +31,7 @@ class SheepCounter extends React.Component{
               <div className="sheeps">
                   {this.state.sheeps}
               </div>
-              <button className="count-sheeps" type="button" onClick={this.clickHandler}>Bheee!</button>
+              <button className="count-sheeps" type="button" onClick={this.clickHandler}>Bhee!</button>
           </div>
       )
   }
